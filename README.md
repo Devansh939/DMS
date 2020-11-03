@@ -7,13 +7,3 @@ Socket Chat is a tool developed on Python3, Tkinter and Socket. You can chat wit
 * python3
 * tkinter
 * socket
-
-## Screenshots
-
-#### Initial State
-
-(screenshots/one.png)
-
-#### Chat with another user
-
-(screenshots/two.png)
