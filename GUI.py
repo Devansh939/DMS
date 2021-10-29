@@ -115,6 +115,13 @@ class GUI:
             self.root.destroy()
             self.client_socket.close()
             exit(0)
-
+     
+    
+    
+if _name_ == '_main_':
+    root = Tk()
+    gui = GUI(root)
+    root.protocol("WM_DELETE_WINDOW", gui.on_close_window)
+    root.mainloop()
 
 
